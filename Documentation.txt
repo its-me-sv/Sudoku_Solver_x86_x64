@@ -1,0 +1,43 @@
+Function(s):
+************
+	Solve_The_Board(board):
+		This Functions Gets The Empty Position Using The "Return_Empty"
+		Function. It Then First Checks Whether The Board Is Already Solved
+		By Checking The "empty" Variable. If Solved The Function Returns True.
+
+		Otherwise It Will Assign The Tuple Returned By The "Return_Empty" Function
+		To The 2 Variables "r" And "c" Namely Refering To The Row And Column Number
+		Respectively.
+
+		Now Using The For Loop It Iterates From 1 To 10 And Checks Whether The Position
+		Is Correct At The "r" And "c". If It Is Correct, Then It Places The Number At
+		That Position With "r" And "c".
+
+		It Now Checks Whether The Board Is Solved By Recursion. At Any Point When There Need To Change
+		Already Placed Number, "Solve_The_Board" Function Returns False Indicating That The 
+		Process Has To Be Back Tracked.
+
+		The Line board[r][c] = 0 Indicates The Start Of The Back Tracking.
+	*********************************************************************************************************
+
+	Check_Availabilty(board, no, pos):
+		This Function Checks Whether The "no" In The "pos" Is Available To Be Placed In The Board.
+		"pos" Is An Tuple With The Row Of The "no" At 0th Index And Column Of The "no" At 1st Index.
+		
+		First The Function Checks Whether The "no" Can Be Placed In The Given Row.
+		Second It Checks Whether It Can Be Placed In The Given Column.
+		Third It Checks Whether The no Can Be Placed At The Given Box.
+		
+		If All These 3 Steps Are Not Satisfied It Indicates That The Position Is Available For The Number To
+		Be Placed By Retunring True.
+	*************************************************************************************************************
+
+	Return_Empty(board):
+		This Function Returns The First Empty Occurence Of The Position In The Board. An Position Is Considered
+		To Be Empty If The Position Is Used By 0.
+	****************************************************************************************************************
+
+	Message(code):
+		This Function Displays An GUI Message Depeding Upon The "code". 0 - Indicates That The User Wants To Rest
+		The Board And 1 - Indicats The User Wants To Solve The Board.
+	******************************************************************************************************************
