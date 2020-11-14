@@ -33,9 +33,8 @@ The File ("Documentation.txt") Includes The Documentation For The Following:<br>
 </ul><hr>
 <h3 id="downloads">Downloads</h3>
 <a href="Snips.rar">Download Gallery</a><br>
-<a href="rps.exe">Download Standalone Executable</a><br>
 <a href="Documentation.txt">Download Complete Documentation</a><br>
-<a href="rps.py">Download rps.py [main]</a><br>
-<a href="sps.rar">Download Complete Source Code [main, module, resources]</a><br>
+<a href="sudoku_solver.py">Download rps.py [main]</a><br>
+<a href="sudoku.rar">Download Complete Source Code [main, module, resources]</a><br>
 <hr>
 <a href="#top">Go To Table Of Contents</a>
