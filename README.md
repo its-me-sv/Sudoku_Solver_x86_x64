@@ -34,7 +34,7 @@ The File ("Documentation.txt") Includes The Documentation For The Following:<br>
 <h3 id="downloads">Downloads</h3>
 <a href="Snips.rar">Download Gallery</a><br>
 <a href="Documentation.txt">Download Complete Documentation</a><br>
-<a href="sudoku_solver.py">Download rps.py [main]</a><br>
+<a href="sudoku_solver.py">Download sudoku_solver.py [main]</a><br>
 <a href="sudoku.rar">Download Complete Source Code [main, module, resources]</a><br>
 <hr>
 <a href="#top">Go To Table Of Contents</a>
